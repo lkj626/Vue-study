@@ -22,6 +22,7 @@
 <script>
 import ToastPopup from '@/components/ToastPopup.vue';
 import ProgressBar from '@/components/ProgressBar.vue';
+
 const validateEmail = (email) => {
   return String(email)
     .toLowerCase()
